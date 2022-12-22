@@ -116,7 +116,7 @@ input[type="radio"] {
 .thankYouScreen {
   display: grid;
   place-items: center;
-  grid-template-rows: 2fr repeat(3, min-content);
+  grid-template-rows: 2fr repeat(3, 1fr);
   gap: 2rem;
 }
 
